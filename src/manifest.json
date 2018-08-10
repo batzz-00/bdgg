@@ -1,18 +1,16 @@
 {
-  "name": "Better Better Destiny.gg",
+  "name": "Le Keks Dee",
   "version": "2.0.1",
   "manifest_version": 2,
 
-  "description": "Make Destiny.gg Great Again Again",
+  "description": "Make Destiny.gg Great Again",
   "icons": {
-    "48": "./static/icon/icon.png",
-    "128": "./static/icon/icon128.png"
+    "48": "./static/icon/icon.png"
   },
 
   "browser_action": {
     "default_icon": {
-      "48": "./static/icon/icon.png",
-      "128": "./static/icon/icon128.png"
+      "48": "./static/icon/icon.png"
     }
   },
 
@@ -24,7 +22,7 @@
 
   "background": {
     "scripts": [
-      "./index.js"
+      "index.js"
     ],
     "persistent": true
   },
